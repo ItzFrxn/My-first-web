@@ -1,0 +1,19 @@
+.header {
+  background-color: #af0909;
+  color: #fff;
+  padding: 20px;
+}
+.header h1 {
+  font-family: "Verdana", sans-serif;
+  font-size: 5.5vw;
+}
+.header ul {
+  list-style-type: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
