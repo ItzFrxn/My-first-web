@@ -6,6 +6,12 @@
     <meta name="author" content="Melchor" />
     <meta name="description" content="This is my personal blog" />
     <title>Melchor's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js" defer></script>
   </head>
@@ -15,14 +21,32 @@
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Hello, World!</h1>
-      <p>This is a website test</p>
+      <section>
+        <h2>Hello World!</h2>
+        <p>Test</p>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>This is a website test</p>
+      </section>
+      <section id="blog">
+        <h2>Blog</h2>
+        <p>Interesting posts</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>My number phone: 123-456-7890</p>
+      </section>
     </main>
+    <footer class="footer">
+      <p>&copy; Melchor's Blog</p>
+    </footer>
   </body>
 </html>
