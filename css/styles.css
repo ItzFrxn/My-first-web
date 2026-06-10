@@ -6,6 +6,7 @@ body {
   background-color: #fff;
   font-family: "Prompt", sans-serif;
 }
+
 .header {
   background-color: #af0909;
   color: #fff;
@@ -25,10 +26,16 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
 section {
   border: 1px solid rgb(131, 25, 25);
   padding: 20px;
-  margin: 20px;
+  margin-bottom: 40px;
 }
 footer {
   background-color: #af0909;
