@@ -11,6 +11,10 @@ body {
   background-color: #af0909;
   color: #fff;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 .header h1 {
   font-family: "Archivo Black", sans-serif;
@@ -40,4 +44,10 @@ section {
 footer {
   background-color: #af0909;
   color: #fff;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
 }
